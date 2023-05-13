@@ -16,17 +16,40 @@
       }
 
       .color-block {
-        width: 20px;
-        height: 20px;
+        width: 80px;
+        height: 80px;
+      }
+
+      .typo-block {
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      #colorContainer,
+      #typoContainer {
+        display: none;
+      }
+
+      .show #colorContainer {
+        display: flex;
+      }
+      .show #typoContainer {
+        display: block;
+      }
+      .show #loading {
+        display: none;
       }
     </style>
   </head>
   <body>
-    <button id="fetchColorsBtn">Fetch Colors</button>
-    <div
-      id="colorsContainer"
-      style="display: flex; flex-wrap: wrap; justify-content: center"
-    ></div>
-    <script src="popup.js"></script>
+    <div id="contents">
+      <div id="loading">loading...</div>
+      <div
+        id="colorsContainer"
+        style="display: flex; flex-wrap: wrap; justify-content: center"
+      ></div>
+      <div id="typosContainer"></div>
+    </div>
+    <script type="module" src="popup.js"></script>
   </body>
 </html>
