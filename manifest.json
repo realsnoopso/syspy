@@ -5,7 +5,6 @@
   "action": {
     "default_popup": "popup/popup.html"
   },
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "permissions": ["tab", "activeTab", "scripting", "storage"],
   "icons": {
     "16": "images/icon16.png",
