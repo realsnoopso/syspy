@@ -1,0 +1,16 @@
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  domper:
+    specifier: ^0.0.4
+    version: 0.0.4
+
+packages:
+
+  /domper@0.0.4:
+    resolution: {integrity: sha512-sCAnfbHFnuMcXSREk7DDgLzPDEEc/y/px9sRytjt3QZde0xE6c8LsbA3iSLcLl1aWhBc+mn6zSCEY2lTZrG86w==}
+    dev: false
